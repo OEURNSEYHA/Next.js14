@@ -6,11 +6,12 @@ function page() {
   return (
     <div>
       
-      <Link href="/about"> about </Link> <br />
-    
-      <ProductCard/>
+      ADMIN PAGE
+      <Link href="/componenta"> componenta </Link>
+      <Link href="/componentb"> componentb </Link>
+      <ProductCard />
+
     </div>
   );
 }
-
 export default page;
