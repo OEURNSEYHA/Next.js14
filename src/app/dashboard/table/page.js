@@ -1,10 +1,8 @@
-
 import React from 'react'
 
 function page() {
-  
   return (
-    <div>pageb</div>
+    <div>table</div>
   )
 }
 
