@@ -1,8 +1,9 @@
 import React from 'react'
+import ProductCard from '../components/ProductCard'
 
 function Dashboard() {
   return (
-    <div>Dashboard</div>
+    <div> <ProductCard name="hello hi"/> </div>
   )
 }
 

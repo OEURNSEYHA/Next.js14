@@ -1,14 +1,5 @@
-
-function ProductCard({data}) {
-console.log(data)
-
-
-  return (
-    <>
-      {/* <button onClick={()=> {alert("helllo")}} > Click me </button> */}
-    
-    </>
-  );
+function ProductCard({ styles }) {
+  return <> <h1 className={styles}> hello </h1> </>;
 }
 
 export default ProductCard;

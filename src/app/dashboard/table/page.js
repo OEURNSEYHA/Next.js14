@@ -1,8 +1,11 @@
+import ProductCard from '@/app/components/ProductCard'
 import React from 'react'
-
+import '../../globals.css'
 function page() {
   return (
-    <div>table</div>
+    <div>
+      <ProductCard styles={"text-[100px]"}/>
+      table</div>
   )
 }
 
