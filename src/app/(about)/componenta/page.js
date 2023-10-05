@@ -1,8 +1,11 @@
+import Link from 'next/link'
 import React from 'react'
 
 function page() {
   return (
-    <div> pagea
+    <div> 
+      ComponentA
+      <Link href={'hello'}> hello</Link>
        </div>
   )
 }

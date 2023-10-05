@@ -2,7 +2,7 @@ import React from 'react'
 
 function page() {
   return (
-    <div> table 2 </div>
+    <div>page</div>
   )
 }
 
